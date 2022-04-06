@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+#number {
+  color: #fee715ff;
+  font-size: 100px;
+}
+
+.btn {
+  font-size: 25px;
+  color: #101820ff;
+  background-color: #fee715ff;
+  border-radius: 7px;
+}
+
+body {
+  background-color: #101820ff;
+}
+
+.btn:hover {
+  transform: scale(1.25) perspective(1px);
+  transition: transform 0.1s;
+}
+
+p {
+  color: #fee715ff;
+  font-size: 75px;
+}
