@@ -19,6 +19,7 @@ function App() {
     // update:
     // 1) make it so only randomizes to an even number
     // 2) make it so only randomizes between 600-700
+    // new comment
     let max = 700;
     let min = 600;
     setNumber(Math.floor(Math.random() * (max - min + 1) + min));
